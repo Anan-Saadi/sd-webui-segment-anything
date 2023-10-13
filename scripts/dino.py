@@ -30,7 +30,7 @@ dino_install_issue_text = "permanently switch to local groundingdino on Settings
 
 
 def install_goundingdino():
-    if shared.opts.data.get("sam_use_local_groundingdino", False):
+    if True:
         print("Using local groundingdino.")
         return False
 
